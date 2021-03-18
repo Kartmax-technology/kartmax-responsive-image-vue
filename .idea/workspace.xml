@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76562574-64e2-4125-a4f1-e886de41f032" name="Default Changelist" comment="first commit readme">
+    <list default="true" id="76562574-64e2-4125-a4f1-e886de41f032" name="Default Changelist" comment="Final ReadMe updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +36,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616050205767</updated>
-      <workItem from="1616050206929" duration="2976000" />
+      <workItem from="1616050206929" duration="3498000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1616050495550</created>
@@ -53,7 +52,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616050573020</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Final ReadMe updated">
+      <created>1616053300929</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616053300929</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,6 +79,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="first commit readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit readme" />
+    <MESSAGE value="Final ReadMe updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final ReadMe updated" />
   </component>
 </project>
