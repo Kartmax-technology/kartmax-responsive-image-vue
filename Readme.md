@@ -24,6 +24,10 @@ breakpoints.
     ```
     import ResponsiveImages from "node_modules/Kartmax-technology"
     ```
+    Real Example (Relative Path): 
+  ```
+  import ResponsiveImages from "../node_modules/@Kartmax-technology/kartmax-responsive-image-vue/responsive-image"; 
+  ```
 - This shall import the package in your Vue file.
 - For rendering a responsive image, use the below snippet
 ```
