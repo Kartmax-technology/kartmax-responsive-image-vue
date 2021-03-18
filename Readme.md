@@ -4,6 +4,7 @@ This Vue Component helps embed responsive images in your HTML and completely eli
 breakpoints.
 
 # First Time Setup
+
 - If this is the first time that you are setting up your project to install private repositories as npm package, please make sure to set up your project first.
 - For setting up the project, please read the steps from [here](https://postscripts.medium.com/npm-install-packages-from-github-9ec5c6fd0058)
 
@@ -41,10 +42,27 @@ breakpoints.
 
 The component also offer certain attributes which you find helpful but is not mandatory.
 
+- `image_url_c`: Your cloudfront distribution host url path
 - `custom_class`: This attribute can be used to pass a custom class for styling purposes.
 - `custom_style`: This attribute can be used to pass a custom style to override class rules.
 - `custom_width`: This attribute can be used to pass a custom width to override class based width.
 - `data-src`: This attribute can be used to when using this component with image zoom plugin or slick slider in our projects.
+
+# Image Compression
+
+- The image compression in this package uses a service provided by AWS called [Serverless Image Handler](https://aws.amazon.com/solutions/implementations/serverless-image-handler/). To gather
+  more knowledge about it, please read it in detail.
+- The real compression inside the AWS service is done by a [Sharp.js](https://sharp.pixelplumbing.com/api-resize)
+- **List of supported filters:** https://docs.aws.amazon.com/solutions/latest/serverless-image-handler/thumbor-filters.html
+- **Example Request :** https://devimages.popularshoemart.com/cover/600x600/filters:quality(90)/psm-images/Desktop-3.jpg
+- **List of active filters (we shall use them):**
+  - cover
+  - contain 
+  - fill
+  - inside
+  - outside
+  For specific meaning of all the above filter : **https://sharp.pixelplumbing.com/api-resize**
+
 # Author
 
-[KartMax](https://kartmax.in/chauhansahab005) is developed by GreenHonchos, one of India’s largest 360-degree eCommerce Service Providers & Consultants. From startup brands who need a one-stop-shop cart to large enterprises of international repute looking for scale – GreenHonchos provides a one-stop solution by advising across services, such as Technology, Marketing, Operations & Marketplace Management.
+[KartMax](https://kartmax.in) is developed by GreenHonchos, one of India’s largest 360-degree eCommerce Service Providers & Consultants. From startup brands who need a one-stop-shop cart to large enterprises of international repute looking for scale – GreenHonchos provides a one-stop solution by advising across services, such as Technology, Marketing, Operations & Marketplace Management.

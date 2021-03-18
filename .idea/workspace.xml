@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76562574-64e2-4125-a4f1-e886de41f032" name="Default Changelist" comment="Final ReadMe updated">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="76562574-64e2-4125-a4f1-e886de41f032" name="Default Changelist" comment="Readme.md updated with correct repo command for installation">
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +37,7 @@
       <option name="presentableId" value="Default" />
       <updated>1616050205767</updated>
       <workItem from="1616050206929" duration="3498000" />
+      <workItem from="1616055862149" duration="340000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1616050495550</created>
@@ -59,7 +60,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616053300929</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Readme.md updated with correct repo command for installation">
+      <created>1616055905391</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616055905391</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,11 +83,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="first commit readme" />
     <MESSAGE value="Final ReadMe updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final ReadMe updated" />
+    <MESSAGE value="Readme.md updated with correct repo command for installation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Readme.md updated with correct repo command for installation" />
   </component>
 </project>
