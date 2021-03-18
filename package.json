@@ -1,0 +1,19 @@
+{
+  "name": "@kartmax-technology/kartmax-responsive-image-vue",
+  "version": "1.0.0",
+  "description": "A simple package to embed responsive images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/Kartmax-technology"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:Kartmax-technology/kartmax-responsive-image-vue.git",
+    "directory": "@Kartmax-technology/kartmax-responsive-image-vue"
+  },
+  "author": "KartMax & Aakanksha",
+  "license": "ISC"
+}
