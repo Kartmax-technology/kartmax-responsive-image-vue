@@ -32,6 +32,7 @@ breakpoints.
 - For rendering a responsive image, use the below snippet
 ```
     <ResponsiveImage
+        v-bind:largeScreen="image_url_c +'cover/1020x780/filters:quality(90)/images/men-collection.jpg'"
         v-bind:desktop="image_url_c+'cover/700x450/filters:quality(70)/images/men-collection.jpg'"
         v-bind:tab="image_url_c+'cover/650x480/filters:quality(70)/images/men-collection.jpg'"
         v-bind:mobile="image_url_c+'cover/650x480/filters:quality(70)/images/men-collection.jpg'"
