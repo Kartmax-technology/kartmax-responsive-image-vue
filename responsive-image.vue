@@ -1,6 +1,7 @@
 <template>
   <div>
     <picture>
+      <source :srcset="largeScreen" media="(min-width: 1440px)" />
       <source :srcset="desktop" media="(min-width: 1025px)"/>
       <source  media="(min-width: 768px)" :srcset="tab"/>
       <source media="(min-width: 320px)" :srcset="mobile"/>
@@ -24,6 +25,7 @@ export default {
     tab: String,
     mobile: String,
     default_image: String,
+    largeScreen: String,
     custom_width:'',
     custom_style:'',
     custom_class:'',
@@ -32,10 +34,7 @@ export default {
   data: function () {
     return {};
   },
-  mounted() {
-    console.log("compress_class",this.width_external
-    )
-  },
+ 
 
 };
 </script>
