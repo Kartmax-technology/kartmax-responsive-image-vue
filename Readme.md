@@ -18,15 +18,15 @@ breakpoints.
     ```
 - Once the installation is complete, you shall have the package in your node modules folder.
 
-# Usage
+# Usage [This can vary sometimes from project to project, please check the folder name in node_modules and import accordingly]
 
 - Simply import the component in any of your Vue File.
     ```
-    import ResponsiveImages from "node_modules/Kartmax-technology"
+    import ResponsiveImages from "node_modules/@kartmax-technology"
     ```
     Real Example (Relative Path): 
   ```
-  import ResponsiveImages from "../node_modules/@Kartmax-technology/kartmax-responsive-image-vue/responsive-image"; 
+  import ResponsiveImages from "../node_modules/@kartmax-technology/kartmax-responsive-image-vue/responsive-image"; 
   ```
 - This shall import the package in your Vue file.
 - For rendering a responsive image, use the below snippet
