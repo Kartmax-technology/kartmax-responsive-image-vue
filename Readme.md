@@ -11,6 +11,7 @@ breakpoints.
 # Package installation
 
 - [CRITICAL] Make sure you have access to this Github Repo in the first place.
+- DO NOT use old github token, generate your own and use that in .npmrc
 - Open a terminal in your root folder of your project.
 - Run
     ```
