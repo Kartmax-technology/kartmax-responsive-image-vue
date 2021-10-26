@@ -15,7 +15,7 @@ breakpoints.
 - Open a terminal in your root folder of your project.
 - Run
     ```
-    npm install https://github.com/Kartmax-technology/kartmax-responsive-image-vue@1.0.0
+    npm install https://github.com/Kartmax-technology/kartmax-responsive-image-vue
     ```
 - Once the installation is complete, you shall have the package in your node modules folder.
 
